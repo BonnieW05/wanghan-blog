@@ -40,8 +40,8 @@ params:
   
   # SEO优化
   robots: ["index", "follow"]
-  googleAnalytics: "G-XXXXXXXXXX"  # 替换为你的Google Analytics ID
-  googleSiteVerification: "your-google-verification-code"  # Google Search Console验证码
+  # googleAnalytics: "G-XXXXXXXXXX"  # 替换为你的Google Analytics ID
+  # googleSiteVerification: "your-google-verification-code"  # Google Search Console验证码
   
   # 社交媒体链接
   socialIcons:
@@ -66,7 +66,7 @@ params:
   
   # 显示配置
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -102,9 +102,9 @@ params:
   # Giscus 评论系统配置
   giscus:
     repo: "BonnieW05/wanghan-blog"
-    repoId: "R_kgDOKjQhJQ"  # 从 Giscus 配置页面获取的实际 repoId
+    repoId: "R_kgDOKjQhJQ"
     category: "General"
-    categoryId: "DIC_kwDOKjQhJc4Cb8hG"  # 从 Giscus 配置页面获取的实际 categoryId
+    categoryId: "DIC_kwDOKjQhJc4Cb8hG"
     mapping: "pathname"
     strict: "0"
     reactionsEnabled: "1"

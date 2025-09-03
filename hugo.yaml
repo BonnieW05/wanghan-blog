@@ -40,7 +40,7 @@ params:
   
   # SEO优化
   robots: ["index", "follow"]
-  # googleAnalytics: "G-XXXXXXXXXX"  # 替换为你的Google Analytics ID
+  # googleAnalytics: "G-XXXXXXXXXX"  # 将通过GitHub Secrets自动设置
   # googleSiteVerification: "your-google-verification-code"  # Google Search Console验证码
   
   # 社交媒体链接

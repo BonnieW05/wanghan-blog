@@ -20,11 +20,15 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.121.2'
+        hugo-version: '0.149.0'
         extended: true
 
     - name: Build
-      run: hugo --minify
+      run: |
+        if [ -n "${{ secrets.GOOGLE_ANALYTICS_ID }}" ]; then
+          echo "googleAnalytics: ${{ secrets.GOOGLE_ANALYTICS_ID }}" >> hugo.yaml
+        fi
+        hugo --minify
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3

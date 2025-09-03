@@ -22,12 +22,24 @@ menu:
     - name: 🏷️标签
       url: /tags
       weight: 3
+    - name: 📚学习笔记
+      url: /categories/学习笔记
+      weight: 4
+    - name: 💻技术笔记
+      url: /categories/技术笔记
+      weight: 5
+    - name: 💭杂谈
+      url: /categories/杂谈
+      weight: 6
     - name: 📦归档
       url: /archive
-      weight: 4
+      weight: 7
+    - name: 🏗️建站日志
+      url: /categories/建站日志
+      weight: 8
     - name: 💡关于
       url: /about
-      weight: 5
+      weight: 9
 
 # 网站参数
 params:

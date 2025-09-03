@@ -1,0 +1,26 @@
+{
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "n"
+    }
+  ],
+  "obsidian-git:commit": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "c"
+    }
+  ],
+  "obsidian-git:push": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "p"
+    }
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": ["Ctrl", "Shift"],
+      "key": "l"
+    }
+  ]
+}

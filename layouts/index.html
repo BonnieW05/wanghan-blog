@@ -1,0 +1,52 @@
+{{ define "main" }}
+<!-- 主要内容区域 -->
+<div class="main-content">
+        <!-- 个人资料区域 -->
+        <section class="profile-section">
+            <div class="profile-image">
+                <img src="{{ "images/avatar.jpeg" | relURL }}" alt="个人头像">
+            </div>
+            
+            <div class="quote">
+                <p id="typing-text">"To be, or not to be, that is the question."</p>
+            </div>
+            
+            <div class="greeting">
+                <div class="greeting-item">
+                    <p>欢迎来到我的博客</p>
+                </div>
+                <div class="greeting-item">
+                    <p>👇 我的联系方式</p>
+                </div>
+            </div>
+            
+            <!-- 社交媒体链接 -->
+            <div class="social-links">
+                <a href="https://www.zhihu.com/people/bonnie-19-50" target="_blank" class="social-link">
+                    <span class="zhihu-icon">知</span>
+                </a>
+                <a href="https://github.com/BonnieW05" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:bonniewang0511@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <div class="social-link placeholder">
+                    <i class="fas fa-rss"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- 分类按钮 -->
+        <section class="category-buttons">
+            <div class="button-row">
+                <a href="{{ "/archive" | relURL }}" class="category-btn">Archive</a>
+                <a href="{{ "/categories/建站日志" | relURL }}" class="category-btn">建站日志</a>
+                <a href="{{ "/categories/技术笔记" | relURL }}" class="category-btn">技术笔记</a>
+            </div>
+            <div class="button-row">
+                <a href="{{ "/categories/杂谈" | relURL }}" class="category-btn">杂谈</a>
+            </div>
+        </section>
+</div>
+{{ end }}

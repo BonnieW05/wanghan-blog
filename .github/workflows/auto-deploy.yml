@@ -1,0 +1,42 @@
+name: Auto Deploy to Server
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    types: [ closed ]
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.121.2'
+        extended: true
+        
+    - name: Build Hugo site
+      run: hugo --minify
+      
+    - name: Deploy to server
+      if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+      run: |
+        # 这里可以添加部署到服务器的逻辑
+        # 例如：使用 rsync 或 scp 上传文件
+        echo "Deploying to server..."
+        # rsync -avz --delete public/ user@your-server:/var/www/html/
+        
+    - name: Notify server
+      if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+      run: |
+        # 通知服务器拉取最新代码
+        curl -X POST "https://your-server.com/webhook/deploy" \
+          -H "Authorization: Bearer ${{ secrets.DEPLOY_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{"ref": "${{ github.ref }}", "repository": "${{ github.repository }}"}'

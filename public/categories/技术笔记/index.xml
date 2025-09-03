@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>技术笔记 on 王涵的个人博客</title>
+    <link>http://localhost:1313/wanghan-blog/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 技术笔记 on 王涵的个人博客</description>
+    <image>
+      <title>王涵的个人博客</title>
+      <url>http://localhost:1313/wanghan-blog/avatar.jpeg</url>
+      <link>http://localhost:1313/wanghan-blog/avatar.jpeg</link>
+    </image>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 03 Sep 2024 15:30:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/wanghan-blog/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web开发完整指南：从入门到精通</title>
+      <link>http://localhost:1313/wanghan-blog/posts/tech-notes/web-development-complete-guide/</link>
+      <pubDate>Tue, 03 Sep 2024 15:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/wanghan-blog/posts/tech-notes/web-development-complete-guide/</guid>
+      <description>一份全面的Web开发学习指南，涵盖前端、后端、数据库、部署等各个方面，适合初学者和进阶开发者</description>
+    </item>
+    <item>
+      <title>Hugo基础入门指南</title>
+      <link>http://localhost:1313/wanghan-blog/posts/tech-notes/hugo-basics/</link>
+      <pubDate>Tue, 03 Sep 2024 11:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/wanghan-blog/posts/tech-notes/hugo-basics/</guid>
+      <description>Hugo静态网站生成器的基础使用方法和核心概念</description>
+    </item>
+  </channel>
+</rss>

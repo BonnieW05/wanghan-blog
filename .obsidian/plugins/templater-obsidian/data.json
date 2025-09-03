@@ -1,0 +1,59 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "",
+  "templates_pairs": [
+    [
+      "blog-post.md",
+      "content/posts/{{date:YYYY}}/{{date:MM}}/{{title}}.md"
+    ],
+    [
+      "tech-note.md",
+      "content/posts/tech-notes/{{title}}.md"
+    ],
+    [
+      "smart-blog-post.md",
+      "content/posts/{{date:YYYY}}/{{date:MM}}/{{title}}.md"
+    ],
+    [
+      "smart-tech-note.md",
+      "content/posts/tech-notes/{{title}}.md"
+    ],
+    [
+      "simple-blog-post.md",
+      "content/posts/{{date:YYYY}}/{{date:MM}}/{{title}}.md"
+    ],
+    [
+      "simple-tech-note.md",
+      "content/posts/tech-notes/{{title}}.md"
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1,
+  "enable_script_file_creation": true
+}

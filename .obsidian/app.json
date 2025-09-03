@@ -1,0 +1,22 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "defaultViewMode": "preview",
+  "attachmentFolderPath": "static/images",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en-US"
+  ],
+  "strictLineBreaks": false,
+  "showFrontmatter": true,
+  "tabSize": 2,
+  "useTab": false,
+  "vim": false,
+  "alwaysUpdateLinks": true
+}

@@ -75,7 +75,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -98,6 +98,21 @@ params:
     URL: "https://github.com/BonnieW05/wanghan-blog/edit/main/content"
     Text: "建议编辑"
     appendFilePath: true
+  
+  # Giscus 评论系统配置
+  giscus:
+    repo: "BonnieW05/wanghan-blog"
+    repoId: "R_kgDOKjQhJQ"  # 从 Giscus 配置页面获取的实际 repoId
+    category: "General"
+    categoryId: "DIC_kwDOKjQhJc4Cb8hG"  # 从 Giscus 配置页面获取的实际 categoryId
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    theme: "preferred_color_scheme"
+    lang: "zh-CN"
+    loading: "lazy"
 
 # 默认内容语言
 defaultContentLanguage: zh

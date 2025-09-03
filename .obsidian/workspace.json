@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Untitled.md",
-                "mode": "source",
+                "file": "content/categories/建站日志/_index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "_index"
             }
           }
         ]
@@ -84,13 +84,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Untitled.md",
+                "file": "content/categories/建站日志/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Untitled 的大纲"
+              "title": "_index 的大纲"
             }
           },
           {
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Untitled.md",
+                "file": "content/categories/建站日志/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Untitled 的反向链接列表"
+              "title": "_index 的反向链接列表"
             }
           },
           {
@@ -118,12 +118,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Untitled.md",
+                "file": "content/categories/建站日志/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Untitled 的出链列表"
+              "title": "_index 的出链列表"
             }
           },
           {
@@ -174,6 +174,10 @@
   },
   "active": "9c9d1ed1b870f545",
   "lastOpenFiles": [
+    "content/posts/Untitled.md",
+    "public/posts/tech-notes/untitled/index.html",
+    "public/posts/tech-notes/untitled",
+    "content/posts/tech-notes/Untitled.md",
     "public/categories/学习笔记/page/1/index.html",
     "public/categories/学习笔记/page/1",
     "public/categories/学习笔记/page",
@@ -183,17 +187,13 @@
     "content/categories/学习笔记/_index.md",
     "content/categories/学习笔记",
     "public/page/1/index.html",
-    "public/page/1",
-    "public/page",
     "public/images/这是一条新笔记.png",
     "public/images/这是一条新笔记-1.png",
     "public/images/一个新尝试的图片.png",
     "public/avatar.jpeg",
-    "public/assets/css/stylesheet.b5d6aea30d7e14de4dcda80e3d0ee4ec39cfe328c153798afa1f394ef198a41a.css",
     "public/images/Untitled.png",
     "static/images/Untitled.png",
     "content/categories/建站日志/_index.md",
-    "content/posts/Untitled.md",
     "content/posts/hello-world.md",
     "README.md",
     "未命名.md",

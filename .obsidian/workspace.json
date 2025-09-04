@@ -11,10 +11,14 @@
             "id": "9c9d1ed1b870f545",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/技术笔记/Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Untitled 1"
             }
           }
         ]
@@ -166,8 +170,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9c9d1ed1b870f545",
+  "active": "file-explorer",
   "lastOpenFiles": [
+    "content/posts/技术笔记/dino-wm新开服务器配环境步骤.md",
+    "content/posts/技术笔记",
+    "public/posts/学习笔记/计算机系统概论课程笔记/index.html",
+    "public/posts/学习笔记/计算机系统概论课程笔记",
+    "content/posts/技术笔记/Untitled 1.md",
+    "content/posts/关于DINO-WM review的研读.md",
     "docs/seo-optimization-guide.md",
     "public/posts/test/index.html",
     "public/posts/test",
@@ -177,9 +187,6 @@
     "public/posts/学习笔记",
     "public/tags/计算机网络/page/1/index.html",
     "public/tags/计算机网络/page/1",
-    "public/tags/计算机网络/page",
-    "public/tags/计算机网络/index.xml",
-    "public/tags/计算机网络/index.html",
     "public/images/计算机网络原理/image-4.png",
     "public/images/计算机网络原理/image-5.png",
     "public/images/计算机网络原理/image.png",
@@ -192,7 +199,7 @@
     "public/images/计算机网络原理/image-14.png",
     "content/posts/计算机网络原理/Principles of Computer Networking.md",
     "content/posts/学习笔记/计算机网络原理笔记.md",
-    "content/posts/计算机系统概论课程笔记.md",
+    "content/posts/学习笔记/计算机系统概论课程笔记.md",
     "content/posts/计算机网络原理/c5.md",
     "content/posts/计算机网络原理/A_note.md",
     "content/posts/math-test.md",
@@ -208,11 +215,6 @@
     "content/posts/tech-notes/Untitled.md",
     "content/categories/学习笔记/_index.md",
     "content/posts/hello-world.md",
-    "README.md",
-    "未命名.md",
-    "这是一条新笔记.md",
-    "templates/simple-tech-note.md",
-    "templates/simple-blog-post.md",
-    "templates/smart-tech-note.md"
+    "README.md"
   ]
 }

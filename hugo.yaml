@@ -87,6 +87,19 @@ params:
     style: github
     nojs: false
   
+  # 数学公式渲染
+  math:
+    enable: true
+    mathjax:
+      enable: true
+      src: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+      config:
+        tex:
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          processEscapes: true
+          processEnvironments: true
+  
   # 图片处理
   cover:
     hidden: false
@@ -116,3 +129,17 @@ params:
 
 # 默认内容语言
 defaultContentLanguage: zh
+
+# Markdown配置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+
+# 忽略警告
+ignoreLogs: ['warning-goldmark-raw-html']

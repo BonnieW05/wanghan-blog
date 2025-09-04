@@ -1,7 +1,7 @@
 ---
-title: 技术笔记标题
+title: dino-wm新开服务器配环境步骤
 date: 2025-07-14T00:06:00+08:00
-draft: true
+draft: false
 tags:
   - 技术笔记
   - 世界模型

@@ -1,6 +1,6 @@
 baseURL: https://8fwh.cn/
 languageCode: zh-cn
-title: 王涵的个人博客
+title: BonnieW的个人博客
 theme: ["PaperMod"]
 
 # 启用搜索所需的信息
@@ -32,10 +32,10 @@ menu:
 # 网站参数
 params:
   env: production # to enable analytics, opengraph, twitter-cards and search.
-  title: 王涵的个人博客
+  title: BonnieW的个人博客
   description: 欢迎来到我的个人博客，分享技术笔记、生活感悟和建站日志
-  keywords: [Blog, 王涵, 技术, 编程, 个人博客, Hugo, PaperMod, 前端开发, 后端开发, 全栈开发]
-  author: 王涵
+  keywords: [Blog, BonnieW, 技术, 编程, 个人博客, Hugo, PaperMod, 前端开发, 后端开发, 全栈开发]
+  author: BonnieW
   images: ["avatar.jpeg"]
   
   # SEO优化

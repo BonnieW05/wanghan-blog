@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/categories/建站日志/_index.md",
-                "mode": "preview",
+                "file": "content/posts/计系概笔记/计算机系统概论课程笔记.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "计算机系统概论课程笔记"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#杂谈",
+                "query": "tag:#技术笔记",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,30 +170,39 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9c9d1ed1b870f545",
+  "active": "file-explorer",
   "lastOpenFiles": [
+    "content/posts/计系概笔记/计算机系统概论.md",
+    "content/posts/计系概笔记/计算机系统概论课程笔记.md",
+    "templates/learning-note.md",
+    "templates/tech-note.md",
+    "templates/blog-post.md",
+    "content/posts/blog-log/my-blog-creation-journey.md",
+    "content/posts/计系概笔记/images/image-23.png",
+    "public/posts/计系概笔记/images/带符号数的加减2.png",
+    "public/posts/计系概笔记/images/带符号数的加减.png",
+    "public/posts/计系概笔记/images/image-45.png",
+    "public/posts/计系概笔记/images/image-40.png",
+    "public/posts/计系概笔记/images/image-39.png",
+    "public/posts/计系概笔记/images/image-37.png",
+    "public/posts/计系概笔记/images/image-35.png",
+    "public/posts/计系概笔记/images/image-34.png",
+    "public/posts/计系概笔记/images/image-33.png",
+    "public/posts/计系概笔记/images",
+    "content/posts/计系概笔记/images",
+    "public/posts/计系概笔记/计算机系统概论/index.html",
+    "public/posts/计系概笔记/计算机系统概论",
+    "public/posts/计系概笔记",
+    "content/posts/计系概笔记",
+    "content/categories/建站日志/_index.md",
     "resources/_gen/images",
     "resources/_gen/assets",
     "resources/_gen",
     "resources",
-    "layouts/code-art.html",
-    "public/code-art/index.html",
-    "public/code-art",
     "content/code-art.md",
-    "layouts/partials/comments.html",
-    "layouts/partials/breadcrumbs.html",
-    "layouts/partials/cover.html",
-    "layouts/partials/anchored_headings.html",
     "content/posts/Untitled.md",
     "content/posts/tech-notes/Untitled.md",
     "content/categories/学习笔记/_index.md",
-    "public/images/这是一条新笔记.png",
-    "public/images/这是一条新笔记-1.png",
-    "public/images/一个新尝试的图片.png",
-    "public/avatar.jpeg",
-    "public/images/Untitled.png",
-    "static/images/Untitled.png",
-    "content/categories/建站日志/_index.md",
     "content/posts/hello-world.md",
     "README.md",
     "未命名.md",
@@ -201,8 +210,6 @@
     "templates/simple-tech-note.md",
     "templates/simple-blog-post.md",
     "templates/smart-tech-note.md",
-    "templates/smart-blog-post.md",
-    "static/images/这是一条新笔记.png",
-    "static/images/Pasted image 20250903170706.png"
+    "templates/smart-blog-post.md"
   ]
 }

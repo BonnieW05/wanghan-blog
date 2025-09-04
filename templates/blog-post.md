@@ -1,10 +1,10 @@
 ---
-title: "请修改标题"
-date: <% tp.date.now("YYYY-MM-DDTHH:mm:ss+08:00") %>
+title: "文章标题"
+date: 2025-01-27T10:00:00+08:00
 draft: true
 tags: ["标签1", "标签2"]
 categories: ["分类"]
-description: "请修改文章描述"
+description: "文章描述"
 cover:
   image: ""
   alt: ""
@@ -12,7 +12,7 @@ cover:
   relative: false
 ---
 
-# 请修改标题
+# 文章标题
 
 ## 概述
 
@@ -34,7 +34,7 @@ cover:
 
 ---
 
-**标签**: #标签1 #标签2
-**分类**: 分类
-**创建时间**: <% tp.date.now("YYYY-MM-DD HH:mm") %>
-**更新时间**: <% tp.date.now("YYYY-MM-DD HH:mm") %>
+**标签**: #标签1 #标签2  
+**分类**: 分类  
+**创建时间**: 2025-01-27 10:00  
+**更新时间**: 2025-01-27 10:00

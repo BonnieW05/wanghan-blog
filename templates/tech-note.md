@@ -1,10 +1,10 @@
 ---
-title: "请修改标题"
-date: <% tp.date.now("YYYY-MM-DDTHH:mm:ss+08:00") %>
+title: "技术笔记标题"
+date: 2025-01-27T10:00:00+08:00
 draft: true
 tags: ["技术笔记", "标签1", "标签2"]
 categories: ["技术笔记"]
-description: "请修改文章描述"
+description: "技术笔记描述"
 cover:
   image: ""
   alt: ""
@@ -12,7 +12,7 @@ cover:
   relative: false
 ---
 
-# 请修改标题
+# 技术笔记标题
 
 ## 技术栈
 
@@ -54,7 +54,7 @@ cover:
 
 ---
 
-**标签**: #技术笔记 #标签1 #标签2
-**分类**: 技术笔记
-**创建时间**: <% tp.date.now("YYYY-MM-DD HH:mm") %>
-**更新时间**: <% tp.date.now("YYYY-MM-DD HH:mm") %>
+**标签**: #技术笔记 #标签1 #标签2  
+**分类**: 技术笔记  
+**创建时间**: 2025-01-27 10:00  
+**更新时间**: 2025-01-27 10:00

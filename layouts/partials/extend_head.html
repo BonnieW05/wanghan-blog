@@ -8,3 +8,8 @@
     }
 </style>
 {{- end -}}
+
+<!-- MathJax Support -->
+{{- if .Params.math }}
+{{- partial "mathjax.html" . }}
+{{- end }}

@@ -108,9 +108,7 @@ params:
   
   # 编辑链接
   editPost:
-    URL: "https://github.com/BonnieW05/wanghan-blog/edit/main/content"
-    Text: "建议编辑"
-    appendFilePath: true
+    disabled: true
   
   # Giscus 评论系统配置
   giscus:

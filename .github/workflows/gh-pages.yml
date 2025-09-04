@@ -35,7 +35,8 @@ jobs:
           if [ -n "${{ secrets.GOOGLE_ANALYTICS_ID }}" ]; then
             echo "googleAnalytics: ${{ secrets.GOOGLE_ANALYTICS_ID }}" >> hugo.yaml
           fi
-          hugo --minify --gc
+          rm -rf public
+          hugo --cleanDestinationDir --minify --gc
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

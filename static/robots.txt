@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://8fwh.cn/sitemap.xml
+
+# 允许所有搜索引擎抓取
+Crawl-delay: 1
